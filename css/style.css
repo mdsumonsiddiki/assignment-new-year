@@ -18,7 +18,7 @@ img{
 }
 /* =========header area start======== */
 #header{
-    padding: 50px 0 120px 0;
+    padding-top: 50px;
     max-width: 1320px;
     margin: 0 auto;
 }
@@ -64,8 +64,38 @@ img{
     font-family: 'Merriweather', serif;
 }
 /* =========header area end======== */
-/* =========header area start======== */
-/* =========header area start======== */
+/* =========main area start======== */
+#main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+#main .discount-deal{
+    text-align: center;
+    padding: 120px 0;
+}
+#main .discount-title h2{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+#main .discount-title h4{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+#main .discount-title h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#main .discout-img{
+    margin-top: 48px;
+}
+/* =========main area start======== */
 /* =========header area start======== */
 /* =========header area start======== */
 /* =========header area start======== */

@@ -13,8 +13,26 @@ a{
 ol,ul{
     list-style: none;
 }
+p{
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
 img{
     vertical-align: middle;
+}
+.main-btn{
+    color: #fff;
+    background: #F00;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 /* =========header area start======== */
 #header{
@@ -69,6 +87,7 @@ img{
     max-width: 1320px;
     margin: 0 auto;
 }
+    /* discount deal */
 #main .discount-deal{
     text-align: center;
     padding: 120px 0;
@@ -94,6 +113,71 @@ img{
 }
 #main .discout-img{
     margin-top: 48px;
+}
+    /* wc banner */
+#main .wc-banner{
+    background: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 68px 138px 68px 126px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 120px;
+}
+#main .wc-banner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 15px;
+    z-index: -1;
+}
+#main .wc-content h2{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 35px;
+}
+#main .wc-content p{
+    color: #ffffffcc;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+/* event details */
+#main .event-details{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 110px;
+    margin-bottom: 120px;
+}
+#main .event-details h3{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 56px;
+}
+#main .event-details h3 span{
+    color: #F00;
+    padding-right: 10px;
+}
+#main .event-details .event-btn{
+    padding-top: 48px;
 }
 /* =========main area start======== */
 /* =========header area start======== */

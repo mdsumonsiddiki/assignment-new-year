@@ -179,6 +179,63 @@ img{
 #main .event-details .event-btn{
     padding-top: 48px;
 }
+    /* best-offer */
+#main .best-offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main .offer-info{
+    width: 41%;
+}
+#main .offer-info h5{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#main .offer-info h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+#main .offer-img{
+    position: relative;
+    width: 463px;
+    height: 463px;
+    text-align: center;
+    line-height: 463px;
+    margin-right: 118px;
+    margin-left: 70px;
+}
+#main .offer-img::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 15px solid #F00;
+    transform: translate(-50%, -50%);
+}
+#main .offer-content{
+    padding-left: 85px;
+    margin-top: 70px;
+}
+#main .offer-content h3{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+#main .offer-content img{
+    margin-top: 43px;
+}
 /* =========main area start======== */
 /* =========header area start======== */
 /* =========header area start======== */

@@ -184,6 +184,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 118px;
 }
 #main .offer-info{
     width: 41%;
@@ -235,6 +236,71 @@ img{
 }
 #main .offer-content img{
     margin-top: 43px;
+}
+    /* holi sale */
+#main .holi-ttile{
+    text-align: center;
+    padding: 0 225px;
+    margin-bottom: 497px;
+}
+#main .holi-ttile h5{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+#main .holi-ttile h2{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 28px;
+}
+#main .holi-ttile h2 span{
+    color: #F00;
+}
+.holi-banner{
+    background: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 229px;
+    position: relative;
+}
+.holi-banner .gift-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.holi-banner .girl{
+    position: absolute;
+    bottom: 229px;
+    right: 0;
+}
+.holi-banner .discount-overlay{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 206px;
+    width: 206px;
+    border-radius: 50%;
+    background: #F00;
+    text-align: center;
+    border: 10px solid #fff;
+    transform: translate(-50%, -50%) rotate(-33deg);
+}
+.holi-banner .discount-overlay h3 span{
+    color: #fff;
+    font-size: 73px;
+    font-weight: 700;
+    display: block;
+}
+.holi-banner .discount-overlay h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+    padding-top: 30px;
 }
 /* =========main area start======== */
 /* =========header area start======== */

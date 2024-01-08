@@ -261,24 +261,24 @@ img{
 #main .holi-ttile h2 span{
     color: #F00;
 }
-.holi-banner{
+#main .holi-banner{
     background: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 229px;
     position: relative;
 }
-.holi-banner .gift-box{
+#main .holi-banner .gift-box{
     position: absolute;
     bottom: 0;
     left: 0;
 }
-.holi-banner .girl{
+#main.holi-banner .girl{
     position: absolute;
     bottom: 229px;
     right: 0;
 }
-.holi-banner .discount-overlay{
+#main .holi-banner .discount-overlay{
     position: absolute;
     left: 0;
     top: 50%;
@@ -290,17 +290,95 @@ img{
     border: 10px solid #fff;
     transform: translate(-50%, -50%) rotate(-33deg);
 }
-.holi-banner .discount-overlay h3 span{
+#main .holi-banner .discount-overlay h3 span{
     color: #fff;
     font-size: 73px;
     font-weight: 700;
     display: block;
 }
-.holi-banner .discount-overlay h3{
+#main .holi-banner .discount-overlay h3{
     color: #fff;
     font-size: 24px;
     font-weight: 900;
     padding-top: 30px;
+}
+    /* portfolio */
+#main .portfolio{
+    margin: 120px 0;
+}
+#main .portfolio-title{
+    padding-right: 424px;
+    padding-bottom: 48px;
+}
+#main .portfolio-title h5{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#main .portfolio-title h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+#main .portfolio-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+#main .portfolio-item{
+    margin-bottom: 24px;
+    position: relative;
+}
+    /* subscribe */
+#main .subscribe{
+    text-align: center;
+    background: #ff00000d;
+    border-radius: 16px;
+    padding: 80px 0;
+}
+#main .subs-content h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+    padding-top: 40px;
+    padding-bottom: 22px;
+}
+#main .subs-content p{
+    padding: 0 212px;
+}
+#main .subs-form{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    margin-top: 48px;
+}
+#main .subs-form .text{
+    height: 100%;
+    width: 65%;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    font-size: 25px;
+}
+#main .subs-form .main-btn{
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 50px 50px 0;
 }
 /* =========main area start======== */
 /* =========header area start======== */
